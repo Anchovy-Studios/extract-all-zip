@@ -1,6 +1,6 @@
 {
   "name": "@anchovy_studios/extract-all-zip",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Extract all zip files inside a folder",
   "main": "app.js",
   "scripts": {

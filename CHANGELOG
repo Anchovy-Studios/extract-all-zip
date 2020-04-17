@@ -11,3 +11,7 @@
 ## [1.2.0]
 
 - Fix README npm installation package name
+
+## [2.0.0]
+
+- New feature: extract zip within zip file by scanning the new extracted file

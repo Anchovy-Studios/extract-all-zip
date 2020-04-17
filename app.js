@@ -45,11 +45,21 @@ const getAllFiles = (dir, extn, files, result, regex) => {
 
 const extract = async function(path) {
     if (fs.existsSync(path)) {
-        const files = getAllFiles(path, '.zip');
-        for (let i = 0; i < files.length; i++) {
-            await extractFile(files[i], files[i].substring(0, files[i].lastIndexOf(".")))
+        let result = [];
+        let queue = [];
+        let files = getAllFiles(path, '.zip');
+        queue = queue.concat(files);
+
+        var file;
+
+        while (queue.length > 0) {
+            file = queue.shift();
+            await extractFile(file, file.substring(0, file.lastIndexOf(".")))
+            files = getAllFiles(file.substring(0, file.lastIndexOf(".")), '.zip');
+            queue = queue.concat(files);
+            result.push(file);
         }
-        return files;
+        return result;
 	} else {
         throw new ExtractException("Path not exists!", null);
     }

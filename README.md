@@ -12,7 +12,7 @@ Extract all zip within a directory recursively.
 
 Installation is done using the npm install command:
 ```bash
-$ npm install extract-all-zip
+$ npm install @anchovy_studios/extract-all-zip
 ```
 
 ## Quick Start

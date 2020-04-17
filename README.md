@@ -1,6 +1,6 @@
 # extract-all-zip
 
-![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/extract-zip) ![npm](https://img.shields.io/npm/v/extract-all-zip) ![npm bundle size](https://img.shields.io/bundlephobia/min/extract-all-zip) ![GitHub issues](https://img.shields.io/github/issues/anchovy-studios/extract-all-zip) ![NPM](https://img.shields.io/npm/l/extract-all-zip)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/extract-zip) ![npm](https://img.shields.io/npm/v/@anchovy_studios/extract-all-zip) ![npm bundle size](https://img.shields.io/bundlephobia/min/@anchovy_studios/extract-all-zip) ![GitHub issues](https://img.shields.io/github/issues/anchovy-studios/extract-all-zip) ![NPM](https://img.shields.io/npm/l/@anchovy_studios/extract-all-zip)
 
 Extract all zip within a directory recursively.
 

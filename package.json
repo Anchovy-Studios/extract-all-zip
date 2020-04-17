@@ -1,0 +1,27 @@
+{
+  "name": "@anchovy_studios/extract-all-zip",
+  "version": "1.0.0",
+  "description": "Extract all zip files inside a folder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anchovy-Studios/extract-all-zip.git"
+  },
+  "keywords": [
+    "extract",
+    "zip",
+    "unzip"
+  ],
+  "author": "Joshua Lauwrich Nandy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anchovy-Studios/extract-all-zip/issues"
+  },
+  "homepage": "https://github.com/Anchovy-Studios/extract-all-zip#readme",
+  "dependencies": {
+    "extract-zip": "^2.0.0"
+  }
+}
